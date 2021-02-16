@@ -12,11 +12,11 @@ If your theme doesn't use Discord's native variables, you will have to customize
 
 # Style Previews
 Below are some previews on how the different styles of warnings look.
-### Fullscreen
-![Preview](./assets/screenshots/fullscreen.png)
-
 ### Notification
 ![Preview](./assets/screenshots/notification.png)
 
 ### Unobstructive
 ![Preview](./assets/screenshots/unobstructive.png)
+
+### Fullscreen
+![Preview](./assets/screenshots/fullscreen.png)
