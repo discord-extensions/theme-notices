@@ -54,9 +54,10 @@
 		>.marginTop40-i-78cZ {
 			&:nth-child(2) {
 				>div {
-					>div[tabindex="-1"] {
-						border: 2px solid #F04747;
-						animation: settingsflash 1s ease infinite;
+					>div[tabindex="-1"]
+						&:not(:nth-child(3)) {
+							border: 2px solid #F04747;
+							animation: settingsflash 1s ease infinite;
 					}
 				}
 			}
