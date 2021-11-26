@@ -1,0 +1,22 @@
+.theme-dark #app-mount::after {
+    content: "For this theme to work properly, you have to enable Light Mode. To enable it, head over to Settings -> Appearance.";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 22px;
+    right: 0;
+    bottom: calc(100% - 58px);
+    left: 72px;
+    border-top-left-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background-color: #ed4245;
+}
+.theme-dark #app-mount .base-3dtUhz {
+    margin-top: 36px;
+}
+.theme-dark #app-mount .sidebar-2K8pFh {
+    border-radius: 0;
+}
