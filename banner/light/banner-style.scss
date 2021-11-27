@@ -1,3 +1,9 @@
+@mixin warning_flash {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+
 .theme-dark #app-mount {
     &::after {
         content: "For this theme to work properly, you have to enable Light Mode. To enable it, head over to Settings -> Appearance.";
@@ -15,11 +21,32 @@
         color: white;
         background-color: #ed4245;
     }
-
     .base-3dtUhz {
         margin-top: 36px;
     }
     .sidebar-2K8pFh {
         border-radius: 0;
     }
+    // warn 
+    .container-3baos1 .flex-1xMQg5 .button-14-BFJ:last-child {
+        @include warning_flash;
+    }
+    #user-settings-cog-Appearance {
+        @include warning_flash;
+    }
+    [aria-activedescendant^="user-settings-cog-Appearance"] #user-settings-cog-Appearance--light {
+        @include warning_flash;
+    }
+    [aria-controls="appearance-tab"] {
+        @include warning_flash;
+    }
+    [aria-label="USER_SETTINGS"] [tabindex="-1"] + [class="marginTop40-i-78cZ"] .item-26Dhrx:nth-of-type(2n) {
+        @include warning_flash;
+    }
+}
+
+@keyframes flash {
+	0% { box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2),0 0 0 2px rgba(237, 65, 68, 0.1); }
+	70% { box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1),0 0 0 6px rgba(237, 65, 68, 0.1); }
+	100% { box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0),0 0 0 6px rgba(237, 65, 68, 0.1); }
 }

@@ -17,3 +17,39 @@
     background-size: 55px;
     background-position: 12px center;
 }
+.theme-dark #app-mount .container-3baos1 .flex-1xMQg5 .button-14-BFJ:last-child {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark #app-mount #user-settings-cog-Appearance {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark #app-mount [aria-activedescendant^="user-settings-cog-Appearance"] #user-settings-cog-Appearance--light {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark #app-mount [aria-controls="appearance-tab"] {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark #app-mount [aria-label="USER_SETTINGS"] [tabindex="-1"] + [class="marginTop40-i-78cZ"] .item-26Dhrx:nth-of-type(2n) {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+@keyframes flash {
+    0% {
+        box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2), 0 0 0 2px rgba(237, 65, 68, 0.1);
+   }
+    70% {
+        box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1), 0 0 0 6px rgba(237, 65, 68, 0.1);
+   }
+    100% {
+        box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
+   }
+}

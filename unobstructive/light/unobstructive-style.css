@@ -16,13 +16,30 @@
     color: var(--text-normal);
     background-color: var(--background-tertiary);
 }
-.theme-dark [aria-controls="appearance-tab"] {
-    animation: flash 1s ease infinite;
-    border: 2px solid #ed4245;
-}
 .theme-dark .container-3baos1 .flex-1xMQg5 .button-14-BFJ:last-child {
     animation: flash 1s ease infinite;
-    border: 2px solid #ed4245;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark #user-settings-cog-Appearance {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark [aria-activedescendant^="user-settings-cog-Appearance"] #user-settings-cog-Appearance--light {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark [aria-controls="appearance-tab"] {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
+}
+.theme-dark [aria-label="USER_SETTINGS"] [tabindex="-1"] + [class="marginTop40-i-78cZ"] .item-26Dhrx:nth-of-type(2n) {
+    animation: flash 1s ease infinite;
+    color: white;
+    background-color: #ed4245 !important;
 }
 @keyframes flash {
     0% {
