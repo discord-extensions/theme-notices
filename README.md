@@ -2,7 +2,7 @@
 This repo includes CSS & SCSS styling addons that you can apply to your theme which warn the user to switch theme modes if they are in the incorrect one. These are useful for themes that are specifically meant for either light or dark mode, or if your theme currently does not support both light and dark mode.
 
 # Styles
-You can find two folders in `./enable-dark` and `./enable-light` that include both CSS & SCSS styling. `enable-dark` is to warn the user to switch to light mode and `enable-light` is to warn the user to switch to light mode.
+You can find two folders in `./enable-dark` and `./enable-light` that include both CSS & SCSS styling. `enable-dark` is to warn the user to switch to dark mode and `enable-light` is to warn the user to switch to light mode.
 
 If your theme is not a simple reskin of Discord, or you are not using any of Discord's variables, it is suggested to edit the styling to be consistent with your theme.
 
