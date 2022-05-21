@@ -1,0 +1,54 @@
+.theme-light .base-2jDfDU::before {
+    z-index: 101;
+    position: relative;
+    text-align: center;
+    content: "The theme you are using may not work properly with light mode. It is suggested to use dark mode instead. Please head over to Settings -> Appearance, and under Theme, enable Dark.";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 4px;
+    padding-right: 28px;
+    border-radius: 8px 0 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-shadow: var(--elevation-low);
+    color: #fff;
+    background-color: var(--info-danger-foreground);
+}
+.theme-light .base-2jDfDU .notice-2HEN-u,
+.theme-light .base-2jDfDU .sidebar-1tnWFu {
+    border-radius: 0;
+}
+.theme-light .container-YkUktl .flex-2S1XBF button:nth-child(4),
+.theme-light [aria-controls=appearance-tab][aria-selected=false],
+.theme-light #appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(1),
+.theme-light :is(#user-settings-cog-Appearance, #user-settings-cog-Appearance--dark):not(.focused-3qFvc8) {
+    -webkit-animation: flash 1s ease infinite;
+            animation: flash 1s ease infinite;
+    color: #fff;
+    background-color: var(--info-danger-foreground) !important;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
+    }
+    70% {
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
+    }
+}
+
+@keyframes flash {
+    0% {
+        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
+    }
+    70% {
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
+    }
+}

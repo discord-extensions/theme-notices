@@ -1,0 +1,9 @@
+{
+    "name": "Theme Warnings",
+    "description": "testing",
+    "version": "1.0.0d",
+    "author": "LuckFire & Snapperito",
+    "theme": "./dev.scss",
+    "consent": "true",
+    "license": "WTFPL"
+}
