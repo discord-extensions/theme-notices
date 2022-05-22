@@ -26,3 +26,6 @@ Shows a notification at the bottom right. If you want this notice to show in a d
 |<a href="https://github.com/Snapperito"><img src="https://avatars.githubusercontent.com/u/52221287?v=4" width="90px" height="90px"></a>|
 |:-:|
 |[Snapperito](https://github.com/Snapperito) - Original Idea|
+
+# Support Server
+If you've ran into any issues, feel free to join the [support server](https://discord.gg/vYdXbEzqDs), or make an issue on this repository.
